@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.borda-editor {
+    background-color: #6BD1FF;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0px 16px 24px rgb(0 0 0 / 24%);
+}
+
+.editor-code {
+    background: #141414;
+    border-radius: 8px;
+    box-shadow: 0px 16px 24px rgb(0 0 0 / 24%);  
+}
+
+.mac-buttons {
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+code.preview {
+    display: inline-block;
+    min-height: 234px;
+    margin:24px 16px 16px;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 18px;
+    outline: none;
+    overflow-x: hidden;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.hljs {
+    background: #141414;
+    padding: 3px 5px;
+}

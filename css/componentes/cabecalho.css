@@ -1,0 +1,51 @@
+.cabecalho {
+    align-items: center;
+} 
+
+.perfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foto-perfil {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 100%;
+}
+
+.menu-mobile,
+.pesquisa-mobile {
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .cabecalho {
+        grid-template-columns: auto 1fr auto;
+    } 
+    
+    .perfil {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .pesquisa-mobile {
+        display: none;
+    }
+}
+
+@media(max-width: 762px) {
+    .busca-input {
+        display: none;
+    }
+    .pesquisa-mobile{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+    

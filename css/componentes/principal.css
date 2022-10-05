@@ -1,0 +1,15 @@
+.menu-esquerdo,
+.editor,
+.projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 1024px){
+    .principal {
+        grid-template-columns: 1fr;
+    }
+    .menu-esquerdo {
+        display: none;
+    }
+}    

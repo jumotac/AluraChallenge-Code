@@ -1,0 +1,53 @@
+input,
+textarea, 
+select {
+    background: var(--normal-shadow);
+    height: 56px;
+    padding: 0 14px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-family: var(--font-global);
+    font-size: var(--font-body);
+    color: #ffffff;
+    box-shadow: 0px 16px 24px rgb(0 0 0 / 24%);
+}
+
+input.busca-input {
+    margin: 0;
+}
+
+textarea {
+    margin-bottom: 40px;
+    height: 80px;
+    padding: 16PX ;
+}
+
+input:hover, 
+textarea:hover,
+select:hover {
+    background: var(--hover-shadow);
+}
+
+.select-color {
+    width: 100%;
+    padding: 8px;
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+
+input.select-color:hover {
+    background: none;    
+}
+
+::placeholder,
+select {
+    color: #ffffff;
+    font-size: var(--font-body);
+    opacity: 0.64;
+}
+
+option {
+    color: var(--dark-blue);  
+}
+
